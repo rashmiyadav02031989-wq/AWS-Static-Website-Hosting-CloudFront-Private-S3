@@ -1,8 +1,9 @@
 # AWS-Static-Website-Hosting-CloudFront-Private-S3
-Project Overview
-A short paragraph:
+
+Project Overview:
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
-Architecture
+
+Architecture:
 Add a simple diagram or screenshot.
 User
    |
@@ -11,20 +12,23 @@ CloudFront
    |
    v
 Private S3 Bucket
-AWS Services Used
+
+AWS Services Used:
 Amazon S3
 Amazon CloudFront
 Origin Access Control (OAC)
 IAM
 Route 53 (if you used a custom domain)
-Features
+
+Features:
 Static website hosting
 Private S3 bucket
 HTTPS access
 Global content delivery through CloudFront
 Reduced latency through caching
 Secure access using OAC
-Implementation Steps
+
+Implementation Steps:
 Step 1: Create S3 Bucket
 Created an S3 bucket.
 Uploaded website files.
@@ -38,15 +42,16 @@ Allowed CloudFront to access bucket objects.
 Step 4: Deploy Website
 Waited for CloudFront deployment.
 Accessed website through CloudFront URL.
-Security Best Practices
+
+Security Best Practices:
 S3 Block Public Access enabled.
 No public object permissions.
 Access restricted through CloudFront OAC.
 HTTPS enforced.
-Screenshots
-Include screenshots such as:
-Website homepage
-S3 bucket contents
+
+Screenshots:
+Website homepage:screenshot/website-homepagepng
+S3 bucket contents:screenshot/
 CloudFront distribution
 OAC configuration
 Bucket policy
