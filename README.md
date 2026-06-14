@@ -50,20 +50,18 @@ Access restricted through CloudFront OAC.
 HTTPS enforced.
 
 Screenshots:
-Website homepage:screenshot/website-homepagepng
-S3 bucket contents:screenshot/
-CloudFront distribution
-OAC configuration
-Bucket policy
-Example:
-screenshots/
-├── homepage.png
-├── cloudfront.png
-├── bucket-policy.png
-└── oac.png
-Project Outcome
+Website homepage:screenshots/website-homepage.png
+S3 bucket contents:screenshots/s3-contents.png
+CloudFront distribution:screenshots/cloudfront-general.png
+OAC configuration:screenshots/cloudfront-configuration.png
+Cloudfront Origin:screenshots/cloudfront-origin.png
+Bucket policy:screenshots/s3-bucket-policy
+Bucket permissions:screenshots/s3-block-public-access
+
+Project Outcome:
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.
-Skills Demonstrated
+
+Skills Demonstrated:
 AWS S3
 AWS CloudFront
 CDN Concepts
@@ -71,8 +69,9 @@ Origin Access Control (OAC)
 IAM Policies
 Static Website Hosting
 Cloud Security
+
 Repository Structure
-aws-static-website-cloudfront/
+aws-static-website-cloudfront-private-s3/
 │
 ├── index.html
 ├── README.md
