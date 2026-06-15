@@ -46,6 +46,34 @@ Accessed website through CloudFront URL.
 -HTTPS enforced.  
 
 **Screenshots:**.   
+## Website Homepage
+
+![Website Homepage](screenshots/website-homepage.png)
+
+## Bucket Contents  
+
+![Bucket Policy](screenshots/s3-contents.png)
+
+## Bucket Permission
+
+![Bucket Permission](screenshots/s3-block-public-access.png)
+
+
+## CloudFront Distribution
+
+![CloudFront](screenshots/cloudfront-general.png)
+
+## Bucket Policy
+
+![Bucket Policy](screenshots/s3-bucket-policy.png)
+
+## Origin Access Control
+
+![OAC](screenshots/cloudfront-configuration.png)
+
+## CloudFront Origin 
+
+![CloudFront Origin](screenshots/cloudfront-origin.png)
 Website homepage:  screenshots/website-homepage.png   
 S3 bucket contents:  screenshots/s3-contents.png  
 CloudFront distribution:  screenshots/cloudfront-general.png  
