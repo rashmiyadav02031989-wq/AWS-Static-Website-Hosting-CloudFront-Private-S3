@@ -26,17 +26,17 @@ Private S3 Bucket
 -Secure access using OAC  
 
 **Implementation Steps:**     
-Step 1: Create S3 Bucket. 
+**Step 1:** Create S3 Bucket   
 Created an S3 bucket.  
 Uploaded website files.  
 Kept bucket private.  
-Step 2: Configure CloudFront  
+**Step 2:** Configure CloudFront  
 Created CloudFront distribution.  
 Selected S3 bucket as origin.  
 Enabled OAC.  
-Step 3: Configure Bucket Policy  
+**Step 3:** Configure Bucket Policy  
 Allowed CloudFront to access bucket objects.  
-Step 4: Deploy Website. 
+**Step 4:** Deploy Website. 
 Waited for CloudFront deployment.  
 Accessed website through CloudFront URL.  
 
