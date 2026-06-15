@@ -56,7 +56,7 @@ Accessed website through CloudFront URL.
 
 ## Bucket Permission
 
-![Bucket Permission](s3-block-public-access.jpg)
+![Bucket Permission](s3-bucketpermission.jpg)
 
 
 ## CloudFront Distribution
