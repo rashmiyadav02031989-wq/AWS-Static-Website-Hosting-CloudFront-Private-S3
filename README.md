@@ -5,7 +5,7 @@ Built a secure static website hosting solution using Amazon S3 and Amazon CloudF
 
 **Architecture:**   
 User    
-⏫  
+⬇️  
 CloudFront  
 ⬇️
 Private S3 Bucket  
@@ -18,10 +18,10 @@ Private S3 Bucket
 -Route 53 (if you used a custom domain) 
 
 **Features:**.   
--Static website hosting. 
+-Static website hosting    
 -Private S3 bucket  
 -HTTPS access  
--Global content delivery through CloudFront. 
+-Global content delivery through CloudFront   
 -Reduced latency through caching  
 -Secure access using OAC  
 
