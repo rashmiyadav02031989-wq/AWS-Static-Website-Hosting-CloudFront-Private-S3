@@ -88,7 +88,7 @@ Successfully deployed a secure and scalable static website using AWS services wh
 -Cloud Security  
 
 **Repository Structure:**.   
-aws-static-website-cloudfront-private-s3/    
+AWS-Static-Website-Hosting-CloudFront-Private-S3/    
 ├── README.md   
 ├── cloudfront-configuration.jpg  
 └── cloudfront-general.jpg  
