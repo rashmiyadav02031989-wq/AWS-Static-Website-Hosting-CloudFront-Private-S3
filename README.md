@@ -48,7 +48,7 @@ Accessed website through CloudFront URL.
 **Screenshots:**.   
 ## Website Homepage
 
-![Website Homepage](screenshots/website-homepage.jpg)
+![Website Homepage](screenshots/website-homepage.PNG)
 
 ## Bucket Contents  
 
