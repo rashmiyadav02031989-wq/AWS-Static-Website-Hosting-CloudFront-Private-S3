@@ -92,4 +92,6 @@ aws-static-website-cloudfront-private-s3/
 │    
 ├── index.html   
 ├── README.md    
-└── screenshots/    
+└── cloudfront-origin.jpg  
+└── cloudfront-configuration.jpg
+
