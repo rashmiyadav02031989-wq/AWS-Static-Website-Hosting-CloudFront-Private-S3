@@ -3,8 +3,8 @@
 **Project Overview:**.   
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
-Architecture:  
-User 
+**Architecture:**   
+User    
    |  
    v  
 CloudFront  
@@ -12,14 +12,14 @@ CloudFront
    v  
 Private S3 Bucket  
 
-AWS Services Used:  
+**AWS Services Used:**.   
 -Amazon S3. 
 -Amazon CloudFront  
 -Origin Access Control (OAC)  
 -IAM  
 -Route 53 (if you used a custom domain) 
 
-Features:  
+**Features:**.   
 -Static website hosting. 
 -Private S3 bucket  
 -HTTPS access  
@@ -27,7 +27,7 @@ Features:
 -Reduced latency through caching  
 -Secure access using OAC  
 
-Implementation Steps:  
+**Implementation Steps:**     
 Step 1: Create S3 Bucket. 
 Created an S3 bucket.  
 Uploaded website files.  
@@ -42,13 +42,13 @@ Step 4: Deploy Website.
 Waited for CloudFront deployment.  
 Accessed website through CloudFront URL.  
 
-Security Best Practices:  
+**Security Best Practices:**     
 -S3 Block Public Access enabled.  
 -No public object permissions.  
 -Access restricted through CloudFront OAC.  
 -HTTPS enforced.  
 
-Screenshots:  
+**Screenshots:**.   
 Website homepage:  screenshots/website-homepage.png. 
 S3 bucket contents:  screenshots/s3-contents.png  
 CloudFront distribution:  screenshots/cloudfront-general.png  
@@ -57,10 +57,10 @@ Cloudfront Origin:  screenshots/cloudfront-origin.png
 Bucket policy:  screenshots/s3-bucket-policy.png  
 Bucket permissions:  screenshots/s3-block-public-access.png  
 
-Project Outcome:  
+**Project Outcome:**.   
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.  
 
-Skills Demonstrated:  
+**Skills Demonstrated:**.   
 -AWS S3 
 -AWS CloudFront  
 -CDN Concepts  
@@ -69,7 +69,7 @@ Skills Demonstrated:
 -Static Website Hosting  
 -Cloud Security  
 
-Repository Structure:  
+**Repository Structure:**.   
 aws-static-website-cloudfront-private-s3/ 
 │  
 ├── index.html 
