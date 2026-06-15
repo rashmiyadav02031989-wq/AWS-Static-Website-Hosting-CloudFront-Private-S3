@@ -14,8 +14,7 @@ Private S3 Bucket
 -Amazon S3.  
 -Amazon CloudFront  
 -Origin Access Control (OAC)  
--IAM  
--Route 53 (if you used a custom domain) 
+-IAM   
 
 **Features:**.   
 -Static website hosting    
@@ -36,8 +35,8 @@ Selected S3 bucket as origin.
 Enabled OAC.  
 **Step 3:** Configure Bucket Policy  
 Allowed CloudFront to access bucket objects.  
-**Step 4:** Deploy Website. 
-Waited for CloudFront deployment.  
+**Step 4:** Deploy Website    
+Waited for CloudFront deployment    
 Accessed website through CloudFront URL.  
 
 **Security Best Practices:**     
@@ -47,7 +46,7 @@ Accessed website through CloudFront URL.
 -HTTPS enforced.  
 
 **Screenshots:**.   
-Website homepage:  screenshots/website-homepage.png. 
+Website homepage:  screenshots/website-homepage.png   
 S3 bucket contents:  screenshots/s3-contents.png  
 CloudFront distribution:  screenshots/cloudfront-general.png  
 OAC configuration:  screenshots/cloudfront-configuration.png  
