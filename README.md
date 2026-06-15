@@ -1,6 +1,6 @@
 # AWS-Static-Website-Hosting-CloudFront-Private-S3
 
-Project Overview:
+Project Overview:  
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
 Architecture:
