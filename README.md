@@ -3,8 +3,7 @@
 Project Overview:  
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
-Architecture:
-Add a simple diagram or screenshot.
+Architecture:  
 User
    |
    v
@@ -13,15 +12,14 @@ CloudFront
    v
 Private S3 Bucket
 
-AWS Services Used:
-Amazon S3
-Amazon CloudFront
-Origin Access Control (OAC)
-IAM
-Route 53 (if you used a custom domain)
+AWS Services Used:  
+-Amazon S3
+-Amazon CloudFront
+-Origin Access Control (OAC)
+-IAM
+-Route 53 (if you used a custom domain)
 
-###Features:
-
+Features:  
 -Static website hosting
 -Private S3 bucket
 -HTTPS access
@@ -29,7 +27,7 @@ Route 53 (if you used a custom domain)
 -Reduced latency through caching
 -Secure access using OAC
 
-Implementation Steps:
+Implementation Steps:  
 Step 1: Create S3 Bucket
 Created an S3 bucket.
 Uploaded website files.
