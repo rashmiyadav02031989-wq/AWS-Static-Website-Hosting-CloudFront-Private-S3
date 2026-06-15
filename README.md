@@ -20,13 +20,14 @@ Origin Access Control (OAC)
 IAM
 Route 53 (if you used a custom domain)
 
-Features:
-Static website hosting
-Private S3 bucket
-HTTPS access
-Global content delivery through CloudFront
-Reduced latency through caching
-Secure access using OAC
+###Features:
+
+-Static website hosting
+-Private S3 bucket
+-HTTPS access
+-Global content delivery through CloudFront
+-Reduced latency through caching
+-Secure access using OAC
 
 Implementation Steps:
 Step 1: Create S3 Bucket
