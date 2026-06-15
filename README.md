@@ -90,8 +90,12 @@ Successfully deployed a secure and scalable static website using AWS services wh
 **Repository Structure:**.   
 aws-static-website-cloudfront-private-s3/   
 │    
-├── index.html   
-├── README.md    
+├── README.md   
+├── cloudfront-configuration.jpg  
+└── cloudfront-general.jpg  
 └── cloudfront-origin.jpg  
-└── cloudfront-configuration.jpg
-
+└── index1.html  
+└── s3-bucket-permission.jpg  
+└── s3-bucket-policy.jpg  
+└── s3-contents.jpg  
+└── website-homepage.PNG  
