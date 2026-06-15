@@ -48,32 +48,32 @@ Accessed website through CloudFront URL.
 **Screenshots:**.   
 ## Website Homepage
 
-![Website Homepage](screenshots/website-homepage.PNG)
+![Website Homepage](website-homepage.PNG)
 
 ## Bucket Contents  
 
-![Bucket Policy](screenshots/s3-contents.jpg)
+![Bucket Policy](s3-contents.jpg)
 
 ## Bucket Permission
 
-![Bucket Permission](screenshots/s3-block-public-access.jpg)
+![Bucket Permission](s3-block-public-access.jpg)
 
 
 ## CloudFront Distribution
 
-![CloudFront](screenshots/cloudfront-general.jpg)
+![CloudFront](cloudfront-general.jpg)
 
 ## Bucket Policy
 
-![Bucket Policy](screenshots/s3-bucket-policy.jpg)
+![Bucket Policy](s3-bucket-policy.jpg)
 
 ## Origin Access Control
 
-![OAC](screenshots/cloudfront-configuration.jpg)
+![OAC](cloudfront-configuration.jpg)
 
 ## CloudFront Origin 
 
-![CloudFront Origin](screenshots/cloudfront-origin.jpg)
+![CloudFront Origin](cloudfront-origin.jpg)
 
 **Project Outcome:**.   
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.  
