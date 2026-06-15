@@ -5,15 +5,13 @@ Built a secure static website hosting solution using Amazon S3 and Amazon CloudF
 
 **Architecture:**   
 User    
-   |  
-   v  
+⏫  
 CloudFront  
-   |  
-   v  
+⬇️
 Private S3 Bucket  
 
 **AWS Services Used:**.   
--Amazon S3. 
+-Amazon S3.  
 -Amazon CloudFront  
 -Origin Access Control (OAC)  
 -IAM  
