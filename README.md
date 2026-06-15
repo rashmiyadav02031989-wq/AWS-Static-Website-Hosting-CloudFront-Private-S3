@@ -7,7 +7,7 @@ Built a secure static website hosting solution using Amazon S3 and Amazon CloudF
 User    
 ⬇️  
 CloudFront  
-⬇️
+⬇️  
 Private S3 Bucket  
 
 **AWS Services Used:**.   
