@@ -1,9 +1,9 @@
 # AWS-Static-Website-Hosting-CloudFront-Private-S3
 
-# Project Overview:   
+## Project Overview:   
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
-# Architecture:   
+## Architecture:   
 ```mermaid
 flowchart TD
     U[User Browser]
@@ -20,13 +20,13 @@ flowchart TD
 
     S3 -. Bucket Policy allows access only to CloudFront .-> CF
 ```
-# AWS Services Used:   
+## AWS Services Used:   
 -Amazon S3.  
 -Amazon CloudFront  
 -Origin Access Control (OAC)  
 -IAM   
 
-# Features:   
+## Features:   
 -Static website hosting    
 -Private S3 bucket  
 -HTTPS access  
@@ -34,7 +34,7 @@ flowchart TD
 -Reduced latency through caching  
 -Secure access using OAC  
 
-# Implementation Steps:     
+## Implementation Steps:     
 **Step 1:** Create S3 Bucket   
 Created an S3 bucket.  
 Uploaded website files.  
@@ -49,46 +49,46 @@ Allowed CloudFront to access bucket objects.
 Waited for CloudFront deployment    
 Accessed website through CloudFront URL.  
 
-# Security Best Practices:     
+## Security Best Practices:     
 -S3 Block Public Access enabled.  
 -No public object permissions.  
 -Access restricted through CloudFront OAC.  
 -HTTPS enforced.  
 
-# Screenshots:     
-## Website Homepage
+## Screenshots:     
+### Website Homepage
 
 ![Website Homepage](website-homepage.PNG)
 
-## Bucket Contents  
+### Bucket Contents  
 
 ![Bucket Policy](s3-contents.jpg)
 
-## Bucket Permission
+### Bucket Permission
 
 ![Bucket Permission](s3-bucket-permission.jpg)
 
 
-## CloudFront Distribution
+### CloudFront Distribution
 
 ![CloudFront](cloudfront-general.jpg)
 
-## Bucket Policy
+### Bucket Policy
 
 ![Bucket Policy](s3-bucket-policy.jpg)
 
-## Origin Access Control
+### Origin Access Control
 
 ![OAC](cloudfront-configuration.jpg)
 
-## CloudFront Origin 
+### CloudFront Origin 
 
 ![CloudFront Origin](cloudfront-origin.jpg)
 
-# Project Outcome:   
+## Project Outcome:   
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.  
 
-# Skills Demonstrated:   
+## Skills Demonstrated:   
 -AWS S3 
 -AWS CloudFront  
 -CDN Concepts  
@@ -97,7 +97,7 @@ Successfully deployed a secure and scalable static website using AWS services wh
 -Static Website Hosting  
 -Cloud Security  
 
-# Repository Structure:   
+## Repository Structure:   
 AWS-Static-Website-Hosting-CloudFront-Private-S3/    
 ├── README.md   
 ├── cloudfront-configuration.jpg  
