@@ -16,8 +16,6 @@ flowchart TD
     OAC --> S3
 
     S3 -. Stores .-> IDX[index.html]
-    S3 -. Stores .-> CSS[CSS Files]
-    S3 -. Stores .-> JS[JavaScript Files]
     S3 -. Stores .-> IMG[Images]
 
     S3 -. Bucket Policy allows access only to CloudFront .-> CF
