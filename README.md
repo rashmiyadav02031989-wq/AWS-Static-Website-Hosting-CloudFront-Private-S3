@@ -1,22 +1,22 @@
 # AWS-Static-Website-Hosting-CloudFront-Private-S3
 
-# Project Overview:**.   
+# Project Overview:   
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
-# Architecture:**   
+# Architecture:   
 User    
 ⬇️  
 CloudFront  
 ⬇️  
 Private S3 Bucket  
 
-**AWS Services Used:**.   
+# AWS Services Used:   
 -Amazon S3.  
 -Amazon CloudFront  
 -Origin Access Control (OAC)  
 -IAM   
 
-**Features:**.   
+# Features:   
 -Static website hosting    
 -Private S3 bucket  
 -HTTPS access  
@@ -24,7 +24,7 @@ Private S3 Bucket
 -Reduced latency through caching  
 -Secure access using OAC  
 
-**Implementation Steps:**     
+# Implementation Steps:     
 **Step 1:** Create S3 Bucket   
 Created an S3 bucket.  
 Uploaded website files.  
@@ -39,13 +39,13 @@ Allowed CloudFront to access bucket objects.
 Waited for CloudFront deployment    
 Accessed website through CloudFront URL.  
 
-**Security Best Practices:**     
+# Security Best Practices:     
 -S3 Block Public Access enabled.  
 -No public object permissions.  
 -Access restricted through CloudFront OAC.  
 -HTTPS enforced.  
 
-**Screenshots:**.   
+# Screenshots:     
 ## Website Homepage
 
 ![Website Homepage](website-homepage.PNG)
@@ -75,10 +75,10 @@ Accessed website through CloudFront URL.
 
 ![CloudFront Origin](cloudfront-origin.jpg)
 
-**Project Outcome:**.   
+# Project Outcome:   
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.  
 
-**Skills Demonstrated:**.   
+# Skills Demonstrated:   
 -AWS S3 
 -AWS CloudFront  
 -CDN Concepts  
@@ -87,7 +87,7 @@ Successfully deployed a secure and scalable static website using AWS services wh
 -Static Website Hosting  
 -Cloud Security  
 
-**Repository Structure:**.   
+# Repository Structure:   
 AWS-Static-Website-Hosting-CloudFront-Private-S3/    
 ├── README.md   
 ├── cloudfront-configuration.jpg  
