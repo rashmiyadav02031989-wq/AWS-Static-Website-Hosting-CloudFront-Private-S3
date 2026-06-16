@@ -4,12 +4,24 @@
 Built a secure static website hosting solution using Amazon S3 and Amazon CloudFront. The S3 bucket remains private and website content is delivered through CloudFront using Origin Access Control (OAC), ensuring secure and scalable content delivery over HTTPS.
 
 # Architecture:   
-User    
-⬇️  
-CloudFront  
-⬇️  
-Private S3 Bucket  
+```mermaid
+flowchart TD
+    U[User Browser]
+    CF[CloudFront Distribution]
+    OAC[Origin Access Control]
+    S3[S3 Bucket<br/>Private Static Website Files]
 
+    U --> CF
+    CF --> OAC
+    OAC --> S3
+
+    S3 -. Stores .-> IDX[index.html]
+    S3 -. Stores .-> CSS[CSS Files]
+    S3 -. Stores .-> JS[JavaScript Files]
+    S3 -. Stores .-> IMG[Images]
+
+    S3 -. Bucket Policy allows access only to CloudFront .-> CF
+```
 # AWS Services Used:   
 -Amazon S3.  
 -Amazon CloudFront  
