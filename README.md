@@ -89,7 +89,7 @@ Accessed website through CloudFront URL.
 Successfully deployed a secure and scalable static website using AWS services while preventing direct public access to S3 objects.  
 
 ## Skills Demonstrated:   
--AWS S3 
+-AWS S3  
 -AWS CloudFront  
 -CDN Concepts  
 -Origin Access Control (OAC)  
