@@ -108,3 +108,12 @@ AWS-Static-Website-Hosting-CloudFront-Private-S3/
 └── s3-bucket-policy.jpg  
 └── s3-contents.jpg  
 └── website-homepage.PNG  
+## Future Improvements
+
+- Implement CI/CD pipeline using GitHub Actions to automate deployment to S3 and CloudFront  
+- Add custom domain setup using Route 53 and enable HTTPS with AWS Certificate Manager (ACM)  
+- Integrate AWS WAF for enhanced security and protection against common web attacks  
+- Optimize CloudFront caching policies for better performance and reduced latency  
+- Enable S3 versioning for frontend files to support rollback and safer deployments  
+- Set up CloudFront and S3 access logging with CloudWatch for monitoring and analytics  
+
